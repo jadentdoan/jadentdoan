@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(102, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    }
+h1 {
+    color:gainsboro;
+    text-align: center;
+    }
+h2 {
+    color:gainsboro;
+    margin: 20px;
+}
