@@ -2,16 +2,24 @@ body {
     background-color:rgb(102, 0, 0);
     font-family: "Times New Roman", Times, serif;
     }
+
 h1 {
     color:gainsboro;
     text-align: center;
     }
+
 h2 {
     color:gainsboro;
     margin: 20px;
 }
+
 h3{
     color:gainsboro;
+    margin: 25px;
+}
+
+b{
+    color: gainsboro;
     margin: 25px;
 }
 
@@ -19,6 +27,7 @@ h3{
     display:flex; 
     flex-wrap:wrap; 
 } 
+
 .project   {
     width: 30%;
     margin: 10px;
@@ -26,6 +35,7 @@ h3{
     background: white; 
     border-radius: 25%;
 }
+
 .project img{
     width: 300px;
     height: 300px;
@@ -34,11 +44,51 @@ h3{
     display: block;
     margin: auto;
     }
+
 a { /* change the appearance of ALL links */
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
 .project p { /* change the appearance of paragraph tags inside .project divs */
     text-align: center;
     margin: 15px;
+    }
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    }
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(220, 220, 220);
+    }
+
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    color: gainsboro;
+    }
+
+.contact{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    }
+
+.contact a {
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+.contact a:hover {
+    text-decoration: underline;
     }
